@@ -1,0 +1,29 @@
+{
+  "name": "node-addon-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node-gyp",
+    "node-addon",
+    "n-api",
+    "webassembly",
+    "embind",
+    "WebIDL"
+  ],
+  "author": "",
+  "license": "MIT",
+  "gypfile": true,
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "copyfiles": "^2.4.1"
+  }
+}
